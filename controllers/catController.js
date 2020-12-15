@@ -37,7 +37,6 @@ const cat_create_post = async (req, res) => {
         console.log('coords catch', error.message);
       }
 
-
       const params = [
         req.body.name,
         req.body.age,
