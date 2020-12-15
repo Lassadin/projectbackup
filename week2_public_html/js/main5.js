@@ -15,7 +15,6 @@ const userLists = document.querySelectorAll('.add-owner');
 const imageModal = document.querySelector('#image-modal');
 const modalImage = document.querySelector('#image-modal img');
 const close = document.querySelector('#image-modal a');
-const texti = document.querySelector('#esittely');
 
 // create cat cards
 const createCatCards = (cats) => {
